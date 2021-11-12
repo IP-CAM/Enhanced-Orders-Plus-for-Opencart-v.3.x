@@ -1,5 +1,11 @@
 # Change log
 
+## [2.1.1] - 2021-11-10:
+### Added
+- Hide the module on the layouts edit page
+### Internal
+- Code refactoring
+
 ## [2.1.0] - 2021-11-10:
 ### Added
 - Fix for "admin/controller/sale/order.php" on line 1800
