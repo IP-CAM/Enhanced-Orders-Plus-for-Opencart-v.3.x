@@ -29,3 +29,4 @@ The extension is compatible with OpenCart versions 3.x.
 
 ## Addons
 * [Journal3](https://github.com/ocmod-space/ocmod-enhanced-orders/raw/main/add/journal3/zip/enhanced-orders--journal3.ocmod.zip) addon
+* [Product Descriptions](https://github.com/ocmod-space/ocmod-enhanced-orders/raw/main/add/product-descriptions/zip/enhanced-orders--product-descriptions.ocmod.zip) - an addon which avails to display product description column in order invoices and shipping lists.
