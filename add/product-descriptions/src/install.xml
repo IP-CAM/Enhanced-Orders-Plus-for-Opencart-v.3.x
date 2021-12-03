@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+This file is subject to the terms and conditions defined in the "LICENSE.txt"
+file, which is available by the link:
+https://raw.githubusercontent.com/ocmod-space/readme/main/license/LICENSE.txt.
+-->
+
+<modification>
+	<name>#ocmod.space | Enhanced Orders &lt; Product Descriptions</name>
+	<code>enhanced-orders--product-descriptions</code>
+	<version>1.0.0</version>
+	<author>Andrii Burkatskyi aka underr</author>
+	<link>https://www.opencart.com/index.php?route=marketplace/extension&amp;filter_member=ocmod.space</link>
+
+    <file path="admin/controller/sale/order.php" error="log">
+        <operation error="log">
+            <search line="1615,1806">
+                <![CDATA[$product_data[] = array(]]>
+            </search>
+            <add position="before">
+                <![CDATA[					/// << Enhanced Option > Product Description
+					$description = strip_tags(html_entity_decode($this->model_catalog_product->getProductDescriptions($product['product_id'])[$order_info['language_id']]['description']));
+					$description = strlen($description) > 100 ? substr($description, 0, 100) . '...' : $description;
+					/// >> Enhanced Option > Product Description]]>
+            </add>
+        </operation>
+        <operation error="log">
+            <search line="1589,1765">
+                <![CDATA[$products = $this->model_sale_order->getOrderProducts($order_id);]]>
+            </search>
+            <add position="after">
+                <![CDATA[				$this->load->model('catalog/product');  /// Enhanced Option > Product Description]]>
+            </add>
+        </operation>
+        <operation error="log">
+            <search line="1616">
+                <![CDATA['name'     => $product['name'],]]>
+            </search>
+            <add position="after">
+                <![CDATA[						'description' => $description,  /// Enhanced Option > Product Description]]>
+            </add>
+        </operation>
+        <operation error="log">
+            <search line="1807">
+                <![CDATA['name'     => $product_info['name'],]]>
+            </search>
+            <add position="after">
+                <![CDATA[							'description' => $description,  /// Enhanced Option > Product Description]]>
+            </add>
+        </operation>
+
+    </file>
+    <file path="admin/view/template/sale/order_invoice.twig" error="log">
+        <operation error="log">
+            <search line="69">
+                <![CDATA[{% if invoice_product_image %}colspan="2"{% endif %}]]>
+            </search>
+            <add position="replace">
+                <![CDATA[{% if invoice_product_image %}colspan="3"{% else %}colspan="2"{% endif %}]]>
+            </add>
+        </operation>
+        <operation error="log">
+            <search line="84">
+                <![CDATA[<td>{{ product.model }}</td>]]>
+            </search>
+            <add position="before">
+                <![CDATA[          <td style="text-align: center;">{{ product.description }}</td>]]>
+            </add>
+        </operation>
+        <operation error="log">
+            <search line="101">
+                <![CDATA[{% if invoice_product_image %}5{% else %}4]]>
+            </search>
+            <add position="replace">
+                <![CDATA[{% if invoice_product_image %}6{% else %}5]]>
+            </add>
+        </operation>
+    </file>
+    <file path="admin/view/template/sale/order_shipping.twig" error="log" info="shipping product image">
+        <operation error="log">
+            <search line="64">
+                <![CDATA[{% if shipping_product_image %}colspan="2"{% endif %}]]>
+            </search>
+            <add position="replace">
+                <![CDATA[{% if shipping_product_image %}colspan="3"{% else %}colspan="2"{% endif %}]]>
+            </add>
+        </operation>
+
+        <operation error="log">
+            <search line="97">
+                <![CDATA[<td>{{ product.weight }}</td>]]>
+            </search>
+            <add position="before">
+                <![CDATA[          <td style="text-align: center;">{{ product.description }}</td>]]>
+            </add>
+        </operation>
+    </file>
+
+</modification>
