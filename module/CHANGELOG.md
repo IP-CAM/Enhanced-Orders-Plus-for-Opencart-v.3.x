@@ -1,5 +1,9 @@
 # Change log
 
+## [2.1.2] - 2022-06-02:
+### Internal
+- Code beautifying
+
 ## [2.1.1] - 2021-11-10:
 ### Added
 - Hide the module on the layouts edit page
