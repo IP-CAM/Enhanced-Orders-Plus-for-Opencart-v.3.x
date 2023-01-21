@@ -1,5 +1,9 @@
 # Change log
 
+## [2.1.3] - 2023-01-21:
+### Fixed
+- Picture style min-width parameter in the account order view
+
 ## [2.1.2] - 2022-06-02:
 ### Internal
 - Code beautifying
