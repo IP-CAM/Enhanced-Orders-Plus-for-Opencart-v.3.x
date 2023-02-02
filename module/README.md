@@ -9,7 +9,7 @@ Compatible with OpenCart 3.x versions.
 * Product images in admin orders, invoices and shipping lists.
 * Product images and links in customer account order history.
 * Enhanced customer info in admin order list.
-* Does not modify OC system files (OCMOD).
+* Does not modify system files (OCMOD).
 
 ## Live demo
 [Admin - Settings](http://ocmod.freevar.com/oc3020/a/admin/index.php?route=extension/module/enhanced_orders)  
