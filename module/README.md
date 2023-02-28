@@ -9,6 +9,7 @@ Compatible with OpenCart 3.x versions.
 * Product images in admin orders, invoices and shipping lists.
 * Product images and links in customer account order history.
 * Enhanced customer info in admin order list.
+* Compatible with the Journal theme.
 * Does not modify system files (OCMOD).
 
 ## Live demo

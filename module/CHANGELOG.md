@@ -1,5 +1,12 @@
 # Change log
 
+## [2.1.4] - 2023-01-21:
+### Fixed
+- Workaround for product images to display correctly in email (gmail) if filenames contain spaces.
+### Changed
+- Colspan style for the total cells (long names for total items will now not stretch the quantity column).
+- Width of the product column when viewing the order in the customer account - the width will be (3*image_width)px.
+
 ## [2.1.3] - 2023-01-21:
 ### Fixed
 - Picture style min-width parameter in the account order view
