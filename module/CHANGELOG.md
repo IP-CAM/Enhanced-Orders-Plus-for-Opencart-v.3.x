@@ -1,6 +1,12 @@
 # Change log
 
-## [2.1.4] - 2023-01-21:
+## [2.2.0] - 2023-03-03:
+### Added
+- Displaying voucher images in orders, the cart, emails.
+### Internal
+- Minor code fixes and improvements
+
+## [2.1.4] - 2023-02-28:
 ### Fixed
 - Workaround for product images to display correctly in email (gmail) if filenames contain spaces.
 ### Changed
