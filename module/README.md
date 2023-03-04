@@ -5,12 +5,10 @@
 Compatible with OpenCart 3.x versions.
 
 ## Features
-* Extends order information and adds product images in e-mails.
-* Product images in admin orders, invoices and shipping lists.
-* Product images and links in customer account order history.
-* Enhanced customer info in admin order list.
+* Product images in emails, orders, invoices, shipping lists and customer account.
+* More detailed customer information in emails, order list, orders, etc.
 * Compatible with the Journal theme.
-* Does not modify system files (OCMOD).
+* Does not modify OC core files (OCMOD).
 
 ## Live demo
 [Admin - Settings](http://ocmod.freevar.com/oc3020/a/admin/index.php?route=extension/module/enhanced_orders)  
