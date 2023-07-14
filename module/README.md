@@ -7,7 +7,7 @@ Compatible with OpenCart 3.x versions.
 ## Features
 * Product images in emails, orders, invoices, shipping lists and customer account.
 * More detailed customer information in emails, order list, orders, etc.
-* Compatible with the Journal theme.
+* Compatible with the **Journal** theme.
 * Does not modify OC core files (OCMOD).
 
 ## Live demo
@@ -17,8 +17,8 @@ Compatible with OpenCart 3.x versions.
 * Order [shipping list](https://demo.ocmod.space/a/admin/index.php?route=sale/order/shipping&order_id=1) view.
 
 ## License
-[End-user License Agreement](https://raw.githubusercontent.com/ocmod-space/ocmod-enhanced-orders/main/EULA.txt)
+[End-user License Agreement](https://raw.githubusercontent.com/ocmod-space/ocmod-enhanced-orders/main/EULA.txt).
 
-## Download
-* [Opencart Marketplace](https://www.opencart.com/index.php?route=marketplace/extension/info&extension_id=37121).
-* [OCMod Space](https://www.ocmod.space/enhanced-orders).
+## Links
+* **Enhanced Orders** on [**OpenCart Marketplace**](https://www.opencart.com/index.php?route=marketplace/extension/info&extension_id=37121).
+* [**Enhanced Orders**](https://www.ocmod.space/enhanced-orders) web page.
