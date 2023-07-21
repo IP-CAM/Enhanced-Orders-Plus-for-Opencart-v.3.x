@@ -3,6 +3,8 @@
 ## [2.2.1] - 2023-07-21:
 ### Fixed
 - Event uninstaller.
+### Internal
+- Code improvement.
 
 ## [2.2.0] - 2023-03-03:
 ### Added
