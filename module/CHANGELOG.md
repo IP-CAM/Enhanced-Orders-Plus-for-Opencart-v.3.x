@@ -1,5 +1,9 @@
 # Change log
 
+## [2.2.1] - 2023-07-21:
+### Fixed
+- Event uninstaller.
+
 ## [2.2.0] - 2023-03-03:
 ### Added
 - Displaying voucher images in orders, the cart, emails.
