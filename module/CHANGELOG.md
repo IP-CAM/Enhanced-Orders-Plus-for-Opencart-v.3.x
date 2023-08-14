@@ -1,5 +1,9 @@
 # Change log
 
+## [2.2.2] - 2023-08-14:
+### Changed
+- The minimum width of the product name cell is 24 characters.
+
 ## [2.2.1] - 2023-07-21:
 ### Fixed
 - Event uninstaller.
