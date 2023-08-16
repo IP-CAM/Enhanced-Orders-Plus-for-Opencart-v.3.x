@@ -1,5 +1,13 @@
 # Change log
 
+## [2.3.0] - 2023-08-16:
+### Added
+- Ability to raise the order comment field up.
+- Enhanced payment/shipping address in the Latest Order widget
+- Order status colors.
+### Internal
+- Code improvement.
+
 ## [2.2.2] - 2023-08-14:
 ### Changed
 - The minimum width of the product name cell is 24 characters.

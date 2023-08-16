@@ -7,6 +7,7 @@ Compatible with OpenCart 3.x versions.
 ## Features
 * Product images in emails, orders, invoices, shipping lists and customer account.
 * More detailed customer information in emails, order list, orders, etc.
+* Order status colors.
 * Compatible with the **Journal** theme.
 * Does not modify OC core files (OCMOD).
 
