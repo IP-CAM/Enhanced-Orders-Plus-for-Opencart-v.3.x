@@ -1,5 +1,12 @@
 # Change log
 
+## [2.3.1] - 2023-08-17:
+### Fixed
+- Merging the same payment and shipping addresses into one cell.
+- Compatibility with the country address format from country settings.
+### Internal
+- Code improvement.
+
 ## [2.3.0] - 2023-08-16:
 ### Added
 - Ability to raise the order comment field up.
