@@ -1,5 +1,13 @@
 # Change log
 
+## [2.4.0] - 2023-08-26:
+### Added
+- Direct links to access the order information page without registration/login
+### Changed
+- Module options
+### Internal
+- Code improvement.
+
 ## [2.3.1] - 2023-08-17:
 ### Fixed
 - Merging the same payment and shipping addresses into one cell.
