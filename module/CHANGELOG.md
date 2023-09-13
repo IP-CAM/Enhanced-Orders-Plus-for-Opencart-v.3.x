@@ -1,8 +1,17 @@
 # Change log
 
+## [2.5.0] - 2023-09-12:
+### Added
+- The admin direct access to order invoices without the need to log in using a link from order email.
+### Changed
+- Direct order access keys generation (the old keys in the emails are now invalid, all others will be updated).
+- Now the link for direct order access is only available in customer emails.
+### Internal
+- Code improvement.
+
 ## [2.4.0] - 2023-08-26:
 ### Added
-- Direct links to access the order information page without registration/login
+- Direct access to the order information page by using special links without registration/login.
 ### Changed
 - Module options
 ### Internal

@@ -1,7 +1,7 @@
 # Enhanced Orders
 
 ## Description
-**Enhanced Orders** is an OpenCart extension that designed to improve viewing of order invoices and emails. It allows to display product images and more detailed customer information in order invoices, shipping lists and emails.  
+**Enhanced Orders** is an OpenCart extension that designed to improve the appearance of emails and orders. It allows to display product images and more detailed customer information in order invoices, shipping lists and emails. Also, the extension can also provide direct access (without login) to orders for customers and to invoices for the admin.  
 Compatible with OpenCart 3.x versions.  
 [Read more...](./module/README.md)
 
