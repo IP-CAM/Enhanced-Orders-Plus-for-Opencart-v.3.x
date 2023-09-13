@@ -1,5 +1,11 @@
 # Change log
 
+## [2.5.1] - 2023-09-13:
+### Fixed
+- Twig/HTML markup on admin page to better compatibility with the Twig used in old 3.x OC versions.
+- Printing an additional blank page while printing an invoice.
+- Minor fixes in the default invoice format.
+
 ## [2.5.0] - 2023-09-12:
 ### Added
 - The admin direct access to order invoices without the need to log in using a link from order email.
