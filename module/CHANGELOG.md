@@ -1,5 +1,9 @@
 # Change log
 
+## [2.5.2] - 2023-09-14:
+### Added
+- An ability to disable ordered item pictures in admin emails.
+
 ## [2.5.1] - 2023-09-13:
 ### Fixed
 - Twig/HTML markup on admin page to better compatibility with the Twig used in old 3.x OC versions.
