@@ -1,5 +1,13 @@
 # Change log
 
+## [2.5.3] - 2023-09-16:
+### Added
+- `Reorder` and `Return` buttons on the direct order view page display for unlogged customers.
+- Direct order access link in order status emails.
+- Property `target="_blank"` of the direct order link in the admin.
+### Fixed
+- A minor bug affecting the purchase of vouchers.
+
 ## [2.5.2] - 2023-09-14:
 ### Added
 - An ability to disable ordered item pictures in admin emails.
