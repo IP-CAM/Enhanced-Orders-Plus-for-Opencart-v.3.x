@@ -1,5 +1,10 @@
 # Change log
 
+## [2.5.4] - 2023-09-22:
+### Fixed
+- Direct access to missed orders (Disabled).
+- Minor issues.
+
 ## [2.5.3] - 2023-09-16:
 ### Added
 - `Reorder` and `Return` buttons on the direct order view page display for unlogged customers.
