@@ -1,8 +1,9 @@
 # Change log
 
 ## [2.5.4] - 2023-09-22:
+### Changed
+- Direct access to the missed orders disabled.
 ### Fixed
-- Direct access to missed orders (Disabled).
 - Minor issues.
 
 ## [2.5.3] - 2023-09-16:
