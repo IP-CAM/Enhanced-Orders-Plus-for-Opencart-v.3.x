@@ -1,5 +1,11 @@
 # Change log
 
+## [2.6.0] - 2023-10-20:
+### Added
+- Order time for admin.
+### Internal
+- Coding standards updated.
+
 ## [2.5.4] - 2023-09-22:
 ### Changed
 - Direct access to the missed orders disabled.
