@@ -1,5 +1,9 @@
 # Change log
 
+## [2.6.1] - 2023-11-25:
+### Fixed
+- Direct order link in the guest order confirmation emails.
+
 ## [2.6.0] - 2023-10-20:
 ### Added
 - Order time for admin.
