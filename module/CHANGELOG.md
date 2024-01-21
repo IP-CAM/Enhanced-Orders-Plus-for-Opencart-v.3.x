@@ -1,5 +1,11 @@
 # Change log
 
+## [2.6.2] - 2024-01-21:
+### Changed
+- Admin interface and internals.
+### Fixed
+- When ordering the same products with different options, only the last added product was in the email.
+
 ## [2.6.1] - 2023-11-25:
 ### Fixed
 - Direct order link in the guest order confirmation emails.
