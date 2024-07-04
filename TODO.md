@@ -1,1 +1,2 @@
 - Show purchased gift voucher in account
+- Show payment address for non-shipping orders such gift vouchers
