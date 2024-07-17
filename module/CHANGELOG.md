@@ -1,5 +1,12 @@
 # Change log
 
+## [2.7.0] - 2024-07-18:
+### Changed
+- Show order time also in order history (both for admin and customer).
+### Added
+- Ability to combine columns with order added and modified dates.
+- Ability to show order product in the order list.
+
 ## [2.6.3] - 2024-07-05:
 ### Removed
 - Email from enhanced order list view (I think it is unnecessary there and only takes up space).
