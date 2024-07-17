@@ -1,6 +1,6 @@
 # Change log
 
-## [2.6.3] - 2024-01-21:
+## [2.6.3] - 2024-07-05:
 ### Removed
 - Email from enhanced order list view (I think it is unnecessary there and only takes up space).
 
