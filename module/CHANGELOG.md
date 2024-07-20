@@ -1,5 +1,9 @@
 # Change log
 
+## [2.7.1] - 2024-07-20:
+### Added
+- Order comment (if exists) below the purchased products in the order list.
+
 ## [2.7.0] - 2024-07-18:
 ### Changed
 - Show order time also in order history (both for admin and customer).
