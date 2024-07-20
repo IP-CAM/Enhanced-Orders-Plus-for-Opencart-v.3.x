@@ -3,9 +3,11 @@
 ## [2.7.0] - 2024-07-18:
 ### Changed
 - Show order time also in order history (both for admin and customer).
+- Order status color method.
 ### Added
-- Ability to combine columns with order added and modified dates.
-- Ability to show order product in the order list.
+- Combine columns with order added and modified dates.
+- Show order product in the order list.
+- Change order status from the the order list.
 
 ## [2.6.3] - 2024-07-05:
 ### Removed
