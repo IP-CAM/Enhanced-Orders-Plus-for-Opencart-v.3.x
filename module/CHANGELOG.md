@@ -1,5 +1,9 @@
 # Change log
 
+## [2.7.2] - 2024-07-22:
+### Added
+- Filtering of orders by telephone or email using the `customer` filter field.
+
 ## [2.7.1] - 2024-07-20:
 ### Added
 - Order comment (if exists) below the purchased products in the order list.

@@ -12,6 +12,7 @@ Compatible with OpenCart 3.x versions.
 - Combining the columns of the date of addition and the date of modification of the order.
 - Direct links to view orders and invoices without logging in.
 - Colored order statuses.
+- Filtering of orders by the customer's `telephone` or `email` (the search for relevant fields is also carried out in the `payment_custom_field` and `shipping_custom_field` columns).
 - Ready for the theme **Journal**.
 - Does not modify OC core files (OCMOD).
 
